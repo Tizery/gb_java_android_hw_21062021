@@ -34,8 +34,9 @@ public class Main2 {
     public static void fillArr() {      // Задание 2
         int[] arr2 = new int[8];
         for (int i = 0; i < arr2.length; i++) {
-            int n = i * 3;
-            arr2[i] = n;
+            arr2[i] = i * 3;
+//            int n = i * 3;
+//            arr2[i] = n;
         }
         System.out.println(Arrays.toString(arr2));
     }

@@ -33,7 +33,7 @@ public class Main3 {
             System.out.println("Попытка № " + i);
             int input = sc.nextInt();
             if (thinkNumber == input) {
-                System.out.println("Вы угадали!");
+                System.out.println("Вы угадали! Загадано было число " + thinkNumber);
                 break;
             } else if (input > thinkNumber) {
                 System.out.println("Введенное  Вами число больше загаданного");

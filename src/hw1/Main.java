@@ -39,6 +39,7 @@ public class Main {
         }
     }
 
+
     public static void isPosOrNeg(int a) {     // Задание 5
         if (a >= 0) {
             System.out.println("Число " + a + " положительное");

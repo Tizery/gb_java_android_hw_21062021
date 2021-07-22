@@ -11,7 +11,6 @@ public class Main {
                 {"123", "WWW321", "456", "654"}
         };
 
-
         try {
             sumArr(strings);
         } catch (MyArraySizeException e) {
